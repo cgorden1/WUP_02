@@ -52,7 +52,11 @@ As we see in the numerical results, the mean of Cult c52 is 64.4 compared to the
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+```{r}
+t.test(VitC~Cult,data=veggy)
+```
 
+Through this T-test we can see that there is larger difference between the cultivation of c52 and c39. We can see that the T-tests results are not equal to 95 percent confidence which means that there is little to no chance that c39 produces more vitamin c than c52. 
 
 # Discussion and Conclusion
 
