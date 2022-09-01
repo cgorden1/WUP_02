@@ -43,6 +43,11 @@ There is more Vitamin C in the cultivation of c52 than the cultivation of c39.
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+As we see in the numerical results, the mean of Cult c52 is 64.4 compared to the mean of Cult c39 which is 51.5. We can see that the mean of c52 is much larger than the mean of c39. 
 
 ## Inferential Results
 
